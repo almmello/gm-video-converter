@@ -13,13 +13,22 @@ O **GM Video Converter** é uma aplicação simples e intuitiva para realizar co
 - **Saída Organizada**: Arquivos convertidos são salvos na pasta `output` com nomes detalhados.
 
 ## Como Usar
+### Tela Inicial
+![Tela Inicial](doc/tela_inicial.png)
+
 1. **Selecione um arquivo de vídeo**:
    - Clique no botão `Selecionar Arquivo` e escolha o vídeo desejado.
+
+### Tela com Arquivo Selecionado
+![Tela com Arquivo Selecionado](doc/arquivo_selecionado.png)
+
 2. **Configure as opções de conversão**:
    - Ajuste a resolução usando o slider.
    - Escolha um valor de CRF no menu suspenso ou ajuste o bitrate manualmente (se o CRF estiver desativado).
+
 3. **Inicie a conversão**:
    - Clique no botão `Converter`. O progresso será exibido na barra de progresso.
+
 4. **Verifique a saída**:
    - O vídeo convertido será salvo na pasta `output` com um nome detalhado que inclui as configurações aplicadas.
 
