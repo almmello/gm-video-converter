@@ -1,7 +1,7 @@
 # GM Video Converter
 
 ## Sobre o Projeto
-O **GM Video Converter** é uma aplicação simples e intuitiva para realizar conversões de vídeos utilizando o FFmpeg. A interface gráfica oferece opções para ajustar resolução, taxa de bits (bitrate), e fator de qualidade constante (CRF), com suporte a barra de progresso para monitorar o progresso da conversão.
+O **GM Video Converter** é a solução ideal para quem busca uma ferramenta prática para ajustar a qualidade e o tamanho de seus vídeos de maneira rápida e eficiente. Com uma interface simples, ele permite selecionar o arquivo, configurar as preferências e converter vídeos em poucos cliques.
 
 ## Funcionalidades Principais
 - **Seleção de Arquivo**: Permite escolher o vídeo a ser convertido diretamente pela interface.
@@ -34,7 +34,6 @@ O **GM Video Converter** é uma aplicação simples e intuitiva para realizar co
 
 ## Requisitos
 - Python 3.7+
-- FFmpeg instalado no sistema
 - Dependências listadas no arquivo `requirements.txt`
 
 ## Instalação
@@ -46,7 +45,6 @@ O **GM Video Converter** é uma aplicação simples e intuitiva para realizar co
    ```bash
    pip install -r requirements.txt
    ```
-3. Certifique-se de que o FFmpeg está instalado e acessível pelo terminal.
 
 ## Formatos Suportados
 - MP4
@@ -57,8 +55,8 @@ O **GM Video Converter** é uma aplicação simples e intuitiva para realizar co
 ## Detalhes Técnicos
 - **Bibliotecas Utilizadas**:
   - `tkinter`: Interface gráfica.
-  - `subprocess`: Execução de comandos FFmpeg.
-  - `imageio_ffmpeg`: Localização automática do executável FFmpeg.
+  - `subprocess`: Execução de comandos FFmpeg encapsulados pelo `imageio_ffmpeg`.
+  - `imageio_ffmpeg`: Fornece e encapsula o executável do FFmpeg no ambiente Python.
   - `threading`: Execução assíncrona do processo de conversão.
 
 ## Exemplos de Uso
